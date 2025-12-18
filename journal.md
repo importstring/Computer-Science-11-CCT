@@ -34,3 +34,16 @@ I also ran into some typeerrors.
 I finally found a way to make the arrow keys work well and look good. I added a red highlight when the boat wasn't allowed to be placed in that location. I use a reference coor for rotation and a dictionary to store the location of every single coor of the boat for movement.
 
 ![It's Working!!!](assets/arrow_keys_working.gif)
+
+I split up `flatten_coor` and `concatenate_coor`
+
+```python
+def concatenate_coor(self):
+    return list(map(list, self.coor.items()))
+
+def flatten_coor(self):
+    flat_list = []
+    for k, v in self.coor.items():
+        flat_list.extend([k, v])
+    return flat_list
+```
