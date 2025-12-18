@@ -1,7 +1,7 @@
 ## Day 1 - Wednesday December 10th
 
 I decided that battleship was a good challenge for me if I did it with curses. On this day I made my first attempt at the menu ui. I was thinking I could have two modes for the user: rotate and move.
-[First sketch](assets/December11.png)
+![First sketch](assets/December10.png)
 This proved incredibly difficult to implement and I ended up running out of time so I decided to continue the next day and sleep on it.
 
 ## Day 2 - Thursday December 12th
@@ -33,4 +33,4 @@ I also ran into some typeerrors.
 
 I finally found a way to make the arrow keys work well and look good. I added a red highlight when the boat wasn't allowed to be placed in that location. I use a reference coor for rotation and a dictionary to store the location of every single coor of the boat for movement.
 
-[It's Working!!!](assets/arrow_keys_working.gif)
+![It's Working!!!](assets/arrow_keys_working.gif)
