@@ -28,7 +28,7 @@ To run the game, you need a Python 3 interpreter and a terminal that supports `c
 
 ## License / Property Model
 
-This project is intended for **educational and personal use** as part of the ICS3U Unit 6 Assignment. The code may be viewed, run, and modified by the instructor and classmates for grading, feedback, or learning purposes. It is not formally licensed as open source, and redistribution or reuse outside of this academic context should only be done with the author’s permission. In short, treat it as a student project: respect the originality of the work and avoid copying it for other graded assignments.
+This project is intended for **educational and personal use** as part of the ICS3U CCT. The code may be viewed, run, and modified by the instructor and classmates for grading, feedback, or learning purposes. It is not formally licensed as open source, and redistribution or reuse outside of this academic context should only be done with the author’s permission. In short, treat it as a student project: respect the originality of the work and avoid copying it for other graded assignments.
 
 ---
 
@@ -121,7 +121,3 @@ Yes. The modular design (separate classes and files) makes it straightforward to
 - There are some pretty funny metadata variables at the top of the main file
 - You can also tweak internal constants such as animation speed or AI behavior if you want a “secret” easier or harder mode while testing the game.
 - Additional hidden behaviour, like auto-placing all player ships or skipping the AI animation, can be added behind simple flags if needed, but by default the game runs in a fair, standard mode suitable for the assignment.
-
-
-
-
