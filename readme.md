@@ -1,4 +1,4 @@
-# Battleship – ICS3U Unit 6 Project
+# Battleship – ICS3U CCT
 
 ## General Information
 
@@ -121,6 +121,7 @@ Yes. The modular design (separate classes and files) makes it straightforward to
 - There are some pretty funny metadata variables at the top of the main file
 - You can also tweak internal constants such as animation speed or AI behavior if you want a “secret” easier or harder mode while testing the game.
 - Additional hidden behaviour, like auto-placing all player ships or skipping the AI animation, can be added behind simple flags if needed, but by default the game runs in a fair, standard mode suitable for the assignment.
+
 
 
 
