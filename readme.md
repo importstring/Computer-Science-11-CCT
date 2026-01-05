@@ -14,13 +14,13 @@
 
 This project is a fully playable, terminal-based version of the classic game **Battleship** where a human player faces off against a computer-controlled opponent. Instead of simple text prompts, the game uses a curses-driven interface that lets the player move a cursor with arrow keys, rotate ships, and interact with a dynamic 10×10 grid. The player places ships manually while the computer auto-places its own fleet, which creates a satisfying setup phase before the real battle begins. Once the game starts, both sides take turns firing shots, with hits, misses, and sunk ships tracked and displayed clearly.
 
-Under the hood, the computer uses a two-phase targeting strategy: “hunt” mode uses a parity pattern to search efficiently, and “target” mode focuses around successful hits to finish off damaged ships. This makes the AI feel smarter and more engaging than pure random guessing. The game includes a scoring system for situations where all possible guesses are used: remaining ship segments on each board are converted into points based on ship size, and the higher total wins. The code is organized into multiple classes and files, demonstrating clean structure, modularity, and use of many ICS3U concepts at a high level.[2][1]
+Under the hood, the computer uses a two-phase targeting strategy: “hunt” mode uses a parity pattern to search efficiently, and “target” mode focuses around successful hits to finish off damaged ships. This makes the AI feel smarter and more engaging than pure random guessing. The game includes a scoring system for situations where all possible guesses are used: remaining ship segments on each board are converted into points based on ship size, and the higher total wins. The code is organized into multiple classes and files, demonstrating clean structure, modularity, and use of many ICS3U concepts at a high level.
 
 ---
 
 ## Tech / Framework
 
-This project is written in **Python 3** and runs in a terminal environment using the standard library only. The user interface is built with the `curses` module, which handles screen drawing, keyboard input (arrow keys, Enter, letter keys), and simple animations for the computer’s shots. The game logic relies on standard Python features such as lists, dictionaries, loops, functions with default parameters, and classes for organizing the main pieces of the game (`Game`, `Board`, `Attack`, `PlaceBoat`).[1][2]
+This project is written in **Python 3** and runs in a terminal environment using the standard library only. The user interface is built with the `curses` module, which handles screen drawing, keyboard input (arrow keys, Enter, letter keys), and simple animations for the computer’s shots. The game logic relies on standard Python features such as lists, dictionaries, loops, functions with default parameters, and classes for organizing the main pieces of the game (`Game`, `Board`, `Attack`, `PlaceBoat`).
 
 To run the game, you need a Python 3 interpreter and a terminal that supports `curses`. On macOS and Linux, this works out of the box. On Windows, the recommended approach is to run the game in a WSL (Windows Subsystem for Linux) terminal or a compatible environment that supports `curses`. No external libraries or internet connection are required, and all files can be kept together in a single project folder.
 
@@ -28,7 +28,7 @@ To run the game, you need a Python 3 interpreter and a terminal that supports `c
 
 ## License / Property Model
 
-This project is intended for **educational and personal use** as part of the ICS3U Unit 6 Assignment. The code may be viewed, run, and modified by the instructor and classmates for grading, feedback, or learning purposes. It is not formally licensed as open source, and redistribution or reuse outside of this academic context should only be done with the author’s permission. In short, treat it as a student project: respect the originality of the work and avoid copying it for other graded assignments.[1]
+This project is intended for **educational and personal use** as part of the ICS3U Unit 6 Assignment. The code may be viewed, run, and modified by the instructor and classmates for grading, feedback, or learning purposes. It is not formally licensed as open source, and redistribution or reuse outside of this academic context should only be done with the author’s permission. In short, treat it as a student project: respect the originality of the work and avoid copying it for other graded assignments.
 
 ---
 
@@ -121,5 +121,6 @@ Yes. The modular design (separate classes and files) makes it straightforward to
 - There are some pretty funny metadata variables at the top of the main file
 - You can also tweak internal constants such as animation speed or AI behavior if you want a “secret” easier or harder mode while testing the game.
 - Additional hidden behaviour, like auto-placing all player ships or skipping the AI animation, can be added behind simple flags if needed, but by default the game runs in a fair, standard mode suitable for the assignment.
+
 
 
