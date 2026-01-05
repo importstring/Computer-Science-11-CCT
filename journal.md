@@ -213,3 +213,6 @@ Alright so I've finished the full code, I've decided to leave sukin ships in the
 I kinda went a little wield on the file metadata and I made a `rubric.py` file just to hit all the requirements.
 
 The cielling in my house fell on us so it's been hard to be productive moving all around Toronto until we can go back home. I've been rushed to finish the IPO model and the readme. I'm hoping I can get a day extension on this just to spend a little more time elborating in the readme and comments. I'm prepared to present either way.
+
+Overall the UI looks amazing.
+![New Attack UI](assets/final-look.gif)
