@@ -1,5 +1,5 @@
 __author__ = "Simon ;)"
-__date__ = "2026-01-04"
+__date__ = "2026-01-05"
 __status__ = "100% - Overconfident Andy"
 __course__ = "ICS3U"
 __teacher__ = "Mr. G"
@@ -19,3 +19,4 @@ if __name__ == "__main__":
     # "Modularity"
     callIT()
     methodsforMrG()
+
