@@ -1,7 +1,3 @@
-Here’s an updated Markdown README that lines up exactly with the new Unit 6 Readme rubric (general info, 5–8 sentence pitch, tech/framework, license, features, how to use, 3+ FAQ, Easter eggs/cheats).[1]
-
-You can save this as `README.md` or export as `.pdf/.rtf` if needed.
-
 ---
 
 # Battleship – ICS3U Unit 6 Project
@@ -127,3 +123,4 @@ Yes. The modular design (separate classes and files) makes it straightforward to
 - There are some pretty funny metadata variables at the top of the main file
 - You can also tweak internal constants such as animation speed or AI behavior if you want a “secret” easier or harder mode while testing the game.
 - Additional hidden behaviour, like auto-placing all player ships or skipping the AI animation, can be added behind simple flags if needed, but by default the game runs in a fair, standard mode suitable for the assignment.
+
