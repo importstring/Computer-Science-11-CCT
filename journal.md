@@ -87,7 +87,7 @@ for Ys in self.coor.keys():
                         except: continue
 ```
 
-In some many fewer lines
+In so many fewer lines
 
 ```python
 self.working_board = deepcopy(self.board)
